@@ -1,3 +1,19 @@
+# 工作记忆
+
+## 如何使用插件模板
+
+```
+# ubuntu
+
+cmake --preset ubuntu-x86_64
+cmake --build --preset ubuntu-x86_64
+mkdir inst_out
+cmake --install build_x86_64 --prefix /home/dy/workshop/code-study/obs-plugin-cameras/inst_out
+
+```
+
+
+---
 # OBS Plugin Template
 
 ## Introduction
